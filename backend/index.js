@@ -11,7 +11,7 @@ import geminiResponse from './gemini.js';
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173', // Replace with your frontend URL
+  origin: 'https://virtualassistant-frontend-c2hv.onrender.com', // Replace with your frontend URL
   credentials: true, // Allow cookies to be sent
 }));
 const PORT = process.env.PORT || 5000; // Default to 5000 if PORT is not set
